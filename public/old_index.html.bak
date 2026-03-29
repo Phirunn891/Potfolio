@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Web Developer & IT Specialist</title>
+    <!-- Google Fonts: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/grid.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top me-2">
+                PORTFOLIO.SYS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-outline-light hire-btn px-4" href="#contact">HIRE ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <p class="text-uppercase mb-2 subtitle text-info fw-semibold">Full-stack Engineer & Admin</p>
+                    <h1 class="display-3 fw-bold mb-4">WEB DEVELOPER <br>& IT SPECIALIST</h1>
+                    <p class="lead mb-5 text-muted-custom">
+                        Architecting high-performance digital systems. From scalable cloud infrastructure to pixel-perfect front-end interfaces.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4 pulse-effect">VIEW PROJECTS</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4 btn-contact">CONTACT</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+                    <div class="hero-image-container position-relative">
+                        <img src="assets/hero_status_card.png" alt="Dashboard Hero" class="img-fluid rounded-4 glass-card shadow-lg">
+                        <div class="status-overlay text-start p-3 rounded-bottom-4">
+                            <span class="status-dot"></span>
+                            <span class="status-text ms-2">SYSTEM ONLINE v1.2.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stack & Expertise -->
+    <section id="skills" class="py-5 bg-dark-section">
+        <div class="container py-5">
+            <h2 class="text-uppercase mb-5 section-title">Stack & Expertise</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card expertise-card h-100 dark-card border-0 p-4">
+                        <div class="icon-box mb-4">
+                            <i class="fa-solid fa-server fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">IT Infrastructure</h4>
+                        <p class="text-muted-custom mb-4">System administration, virtualization, and network security protocol implementation.</p>
+                        <div class="tag-cloud mt-auto">
+                            <span class="badge tag-badge">LINUX</span>
+                            <span class="badge tag-badge">CISCO</span>
+                            <span class="badge tag-badge">DOCKER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card expertise-card h-100 dark-card border-0 p-4 active-card">
+                        <div class="icon-box mb-4">
+                            <i class="fa-solid fa-code fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Web Development</h4>
+                        <p class="text-muted-custom mb-4">Building modern, responsive web applications using React, Node.js, and TypeScript.</p>
+                        <div class="tag-cloud mt-auto">
+                            <span class="badge tag-badge">REACT</span>
+                            <span class="badge tag-badge">NODE.JS</span>
+                            <span class="badge tag-badge">NEXT.JS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card expertise-card h-100 dark-card border-0 p-4">
+                        <div class="icon-box mb-4">
+                            <i class="fa-solid fa-cloud fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Cloud Services</h4>
+                        <p class="text-muted-custom mb-4">Architecture and deployment on AWS and Azure with focus on auto-scaling and resilience.</p>
+                        <div class="tag-cloud mt-auto">
+                            <span class="badge tag-badge">AWS</span>
+                            <span class="badge tag-badge">AZURE</span>
+                            <span class="badge tag-badge">TERRAFORM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-5 bg-black-section">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-5">
+                <div>
+                    <p class="text-uppercase subtitle text-info fw-semibold mb-1">Portfolio Selection</p>
+                    <h2 class="text-uppercase section-title">Featured Projects</h2>
+                </div>
+                <a href="#" class="view-repo text-decoration-none text-muted-custom">VIEW REPOSITORY <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            </div>
+
+            <div class="row g-4">
+                <!-- Large Project Card -->
+                <div class="col-lg-8">
+                    <div class="project-card large-card position-relative overflow-hidden rounded-4">
+                        <img src="assets/netwatch_dashboard.png" alt="NetWatch Dashboard" class="img-fluid w-100 h-100 object-fit-cover transition-img">
+                        <div class="project-overlay d-flex flex-column justify-content-end p-5">
+                            <span class="badge text-bg-info text-uppercase mb-3 align-self-start fw-bold px-3 py-2">New Release</span>
+                            <h3 class="fw-bold display-6 mb-3">NETWATCH DASHBOARD</h3>
+                            <p class="mb-4 text-light-custom lead">Real-time network monitoring application for enterprise environments. Deep packet inspection analytics and ML...</p>
+                            <div class="d-flex gap-2 flex-wrap mb-4">
+                                <span class="badge tag-badge bg-dark">REACT</span>
+                                <span class="badge tag-badge bg-dark">PYTHON</span>
+                                <span class="badge tag-badge bg-dark">ML</span>
+                            </div>
+                            <a href="#" class="showcase-link text-decoration-none fw-bold text-white">SHOWCASE STUDY <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Small Project Column -->
+                <div class="col-lg-4">
+                    <div class="row g-4 h-100">
+                        <div class="col-12 h-50">
+                            <div class="project-card small-card position-relative overflow-hidden rounded-4 h-100">
+                                <img src="assets/cloudscale_arch.png" alt="CloudScale" class="img-fluid w-100 h-100 object-fit-cover transition-img">
+                                <div class="project-overlay p-4">
+                                    <p class="text-info text-uppercase fw-bold mb-2 small">Infrastructure / 02</p>
+                                    <h4 class="fw-bold mb-3">CLOUDSCALE ARCH</h4>
+                                    <div class="d-flex gap-2">
+                                        <span class="badge tag-badge bg-dark px-2">AWS</span>
+                                        <span class="badge tag-badge bg-dark px-2">TERRAFORM</span>
+                                    </div>
+                                    <a href="#" class="btn btn-sm btn-outline-light rounded-circle p-2 position-absolute bottom-0 end-0 m-4">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 h-50">
+                            <div class="project-card placeholder-card d-flex flex-column justify-content-center align-items-center text-center p-4 rounded-4 h-100 border border-secondary border-dashed">
+                                <div class="icon-circle mb-3 rounded-circle border border-secondary d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
+                                    <i class="fa-solid fa-plus text-secondary"></i>
+                                </div>
+                                <h5 class="fw-bold mb-1">MORE PROJECTS</h5>
+                                <p class="text-muted small">View GitHub Repository</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="mt-5 d-flex justify-content-center gap-5 border-top border-secondary pt-4 text-uppercase fw-bold small text-secondary">
+                <span class="filter-item cursor-pointer text-white">Efficiency</span>
+                <span class="filter-item cursor-pointer">Scalability</span>
+                <span class="filter-item cursor-pointer">Security</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="py-5 bg-dark-section">
+        <div class="container py-5">
+            <h2 class="text-uppercase mb-5 section-title">Experience Timeline</h2>
+            
+            <div class="timeline-container">
+                <!-- Lead Architect -->
+                <div class="timeline-row row mb-5">
+                    <div class="col-lg-6 offset-lg-6 ps-lg-5 position-relative">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-building-shield"></i>
+                        </div>
+                        <div class="card expertise-card timeline-card p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h4 class="fw-bold fs-5 mb-0">LEAD SYSTEMS ARCHITECT</h4>
+                                <span class="badge date-badge">2024 — PRESENT</span>
+                            </div>
+                            <p class="text-info-subtle fw-semibold mb-3">Quantum Dynamics Corp</p>
+                            <p class="text-muted-custom mb-0">Spearheaded the transition to microservices on Kubernetes, reducing deployment latency by 45% and implementing zero-trust security protocols.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full Stack -->
+                <div class="timeline-row row mb-5">
+                    <div class="col-lg-6 pe-lg-5 text-lg-end position-relative">
+                        <div class="timeline-marker right-marker">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="card expertise-card timeline-card p-4">
+                            <div class="d-flex flex-row-reverse flex-lg-row-reverse justify-content-between align-items-start mb-2">
+                                <h4 class="fw-bold fs-5 mb-0 text-lg-end">FULL STACK DEVELOPER</h4>
+                                <span class="badge date-badge-alt">2021 — 2023</span>
+                            </div>
+                            <p class="text-secondary fw-semibold mb-3">Pixel & Logic Studio</p>
+                            <p class="text-muted-custom mb-0 text-lg-end">Developed responsive web applications for Fortune 500 clients. Specialized in high-performance React components and Node.js API optimization.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-row row mb-2">
+                    <div class="col-lg-6 offset-lg-6 ps-lg-5 position-relative">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="card expertise-card timeline-card p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h4 class="fw-bold fs-5 mb-0">B. SC. COMPUTER SCIENCE</h4>
+                                <span class="badge date-badge-muted">2018 — 2021</span>
+                            </div>
+                            <p class="text-muted-custom fw-semibold mb-3">Technical Institute of Technology</p>
+                            <p class="text-muted-custom mb-0">Specialized in Network Security and Distributed Systems. Graduated with Honors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-5 footer-section">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="navbar-brand fw-bold text-white mb-4 d-block fs-3" href="#">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/grid.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top me-2">
+                        PORTFOLIO.SYS
+                    </a>
+                    <p class="text-muted-custom mb-4">
+                        Building the next generation of digital infrastructure. Available for consulting and full-time roles.
+                    </p>
+                    <div class="d-flex gap-3 social-links">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold text-white mb-4 text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#skills">Skills & Tech Stack</a></li>
+                        <li class="mb-2"><a href="#projects">Projects Archive</a></li>
+                        <li class="mb-2"><a href="#experience">Professional Experience</a></li>
+                        <li class="mb-2"><a href="#">Curriculum Vitae</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold text-white mb-4 text-uppercase">Get in Touch</h5>
+                    <h2 class="fw-bold mb-3 email-contact">hello@portfolio.sys</h2>
+                    <p class="text-muted-custom">Based in San Francisco, CA <br>Remote availability: Global</p>
+                </div>
+            </div>
+            <hr class="border-secondary mt-5">
+            <div class="d-flex justify-content-between mt-4 text-muted-custom small text-uppercase fw-bold">
+                <span>&copy; 2024 PORTFOLIO.SYS ALL RIGHTS RESERVED.</span>
+                <span>BUILT WITH PRECISION & SCALE</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

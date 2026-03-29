@@ -1,0 +1,323 @@
+<div class="main-wrapper">
+    <!-- Navigation -->
+    <nav class="nav-container fixed-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="h4 mb-0 fw-bold space-font text-decoration-none text-white tracking-widest">VAT
+                PHIRUN<span class="accent-blue text-success">.</span>PORTFOLIO</a>
+            <div class="d-none d-md-flex align-items-center gap-2">
+                <a href="#projects" class="nav-link-custom">Projects</a>
+                <a href="#experience" class="nav-link-custom">Timeline</a>
+                <a href="#skills" class="nav-link-custom">Arsenal</a>
+                <a href="#contact" class="nav-link-custom">Contact</a>
+                <a href="#" class="btn-premium py-2 px-4 fs-6 ms-3">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section-padding hero-section d-flex align-items-center min-vh-100">
+        <!-- Orbiting Background -->
+        <div class="orbit-container">
+            <div class="orbit-ring">
+                <div class="orbit-icon icon-1"><i class="fa-brands fa-bootstrap fa-lg"></i></div>
+                <div class="orbit-icon icon-2"><i class="fa-brands fa-angular fa-lg"></i></div>
+                <div class="orbit-icon icon-3"><i class="fa-brands fa-node-js fa-lg"></i></div>
+                <div class="orbit-icon icon-4"><i class="fa-solid fa-leaf fa-lg"></i></div>
+                <div class="orbit-icon icon-5"><i class="fa-brands fa-square-js fa-lg"></i></div>
+            </div>
+        </div>
+
+        <div class="container position-relative z-1 text-center">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                ACTIVE PROTOCOL: READY FOR WORK
+            </div>
+            <h1 class="display-1 fw-bold mb-4 glow-text">
+                I'm a <span class="accent-blue">{{ displayText }}</span><span class="cursor"></span><br>
+                building clean applications.
+            </h1>
+            <p class="lead text-muted mb-5 fs-4 mx-auto" style="max-width: 750px;">
+                I’m a motivated Management Information Systems (MIS) student with a strong interest in programming,
+                networking, graphic design
+            </p>
+            <div class="d-flex gap-4 justify-content-center mt-5">
+                <a href="#projects" class="btn-premium">View Selection</a>
+                <a href="#contact" class="btn-secondary-custom px-5 py-3 text-white border-0 fw-bold fs-5"
+                    style="background: rgba(255,255,255,0.05);">LET'S CONNECT</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Marquee -->
+    <div class="marquee-container">
+        <div class="marquee-content shadow-lg">
+            <!-- Double the content for gapless scroll -->
+            <div class="marquee-item"><i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i> BOOTSTRAP</div>
+            <div class="marquee-item"><i class="fa-brands fa-angular text-danger"></i> ANGULAR</div>
+            <div class="marquee-item"><i class="fa-brands fa-node-js text-success"></i> NODE.JS</div>
+            <div class="marquee-item"><i class="fa-solid fa-database text-success"></i> MONGODB</div>
+            <div class="marquee-item"><i class="fa-solid fa-user-astronaut text-warning"></i> POSTMAN</div>
+            <div class="marquee-item"><i class="fa-solid fa-server text-info"></i> MYSQL</div>
+            <div class="marquee-item"><i class="fa-brands fa-js text-warning"></i> JAVASCRIPT</div>
+            <div class="marquee-item"><i class="fa-brands fa-figma" style="color: #F24E1E;"></i> FIGMA</div>
+            <div class="marquee-item"><i class="fa-brands fa-aws" style="color: #FF9900;"></i> AWS</div>
+            <div class="marquee-item"><i class="fa-brands fa-github text-white"></i> GITHUB</div>
+            <!-- Second wrap -->
+            <div class="marquee-item"><i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i> BOOTSTRAP</div>
+            <div class="marquee-item"><i class="fa-brands fa-angular text-danger"></i> ANGULAR</div>
+            <div class="marquee-item"><i class="fa-brands fa-node-js text-success"></i> NODE.JS</div>
+            <div class="marquee-item"><i class="fa-solid fa-database text-success"></i> MONGODB</div>
+            <div class="marquee-item"><i class="fa-solid fa-user-astronaut text-warning"></i> POSTMAN</div>
+            <div class="marquee-item"><i class="fa-solid fa-server text-info"></i> MYSQL</div>
+            <div class="marquee-item"><i class="fa-brands fa-js text-warning"></i> JAVASCRIPT</div>
+            <div class="marquee-item"><i class="fa-brands fa-figma" style="color: #F24E1E;"></i> FIGMA</div>
+            <div class="marquee-item"><i class="fa-brands fa-aws" style="color: #FF9900;"></i> AWS</div>
+            <div class="marquee-item"><i class="fa-brands fa-github text-white"></i> GITHUB</div>
+        </div>
+    </div>
+
+    <!-- Core Competencies with Themes -->
+    <section class="section-padding bg-darker mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center mb-5 pb-5">
+                <div class="col-lg-6">
+                    <h2 class="display-3 fw-bold mb-4">Transforming complex ideas into <span class="accent-blue">elegant
+                            digital solutions.</span></h2>
+                    <p class="fs-5 text-muted mb-4">I’m a developer who lives for the <span
+                            class="text-white italic">"aha!" moment</span> when a complex problem turns into clean,
+                        maintainable code. I focus on building responsive, scalable systems using modern standards and
+                        best practices.</p>
+                </div>
+                <div class="col-lg-6 g-4 row m-0">
+                    <div class="col-6">
+                        <div class="card-premium text-center border-0 theme-emerald"
+                            style="background: rgba(255, 255, 255, 0.03);" (mouseenter)="onMouseEnter($event)"
+                            (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+                            <div class="card-glow"></div>
+                            <h3 class="stat-number">1</h3>
+                            <p class="small text-muted mb-0">YEARS EXP</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-premium text-center border-0 theme-blue"
+                            style="background: rgba(255,255,255,0.03);" (mouseenter)="onMouseEnter($event)"
+                            (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+                            <div class="card-glow"></div>
+                            <h3 class="stat-number">9+</h3>
+                            <p class="small text-muted mb-0">SHIPPED WEB APPS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 pt-5">
+                <div class="col-md-4">
+                    <div class="card-premium theme-violet" (mouseenter)="onMouseEnter($event)"
+                        (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+                        <div class="card-glow"></div>
+                        <div class="icon-box-premium mb-4"><i class="fa-solid fa-wand-magic-sparkles fa-2x"></i></div>
+                        <h4 class="fw-bold mb-3">UI/UX Solutions</h4>
+                        <p class="text-muted small">Designing intuitive, user-centered interfaces that balance
+                            aesthetics and usability. I focus on crafting seamless experiences that guide users
+                            naturally and effectively.</p>
+                        <div class="mt-4 pt-3 border-top border-dark">
+                            <span class="badge-tag me-2">Figma</span>
+                            <span class="badge-tag">ADOBE XD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium theme-blue" (mouseenter)="onMouseEnter($event)"
+                        (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+                        <div class="card-glow"></div>
+                        <div class="icon-box-premium mb-4 text-info"><i
+                                class="fa-solid fa-code-branch fa-2x text-info"></i></div>
+                        <h4 class="fw-bold mb-3">Core Engineering</h4>
+                        <p class="text-muted small">Building scalable and high-performance web applications using modern frameworks. I turn complex problems into clean, maintainable code with a focus on performance and user experience.</p>
+                        <div class="mt-4 pt-3 border-top border-dark">
+                            <span class="badge-tag me-2">Angular</span>
+                            <span class="badge-tag me-2">BOOTSTRAP</span>
+                            <span class="badge-tag me-2">Node JS</span>
+                            <span class="badge-tag me-2">Restful API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-premium theme-emerald" (mouseenter)="onMouseEnter($event)"
+                        (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+                        <div class="card-glow"></div>
+                        <div class="icon-box-premium mb-4 text-success"><i
+                                class="fa-solid fa-database fa-2x text-success"></i></div>
+                        <h4 class="fw-bold mb-3">Data Infrastructure</h4>
+                        <p class="text-muted small">Designing efficient and secure data systems with optimized database structures and reliable backend integration for real-world applications.</p>
+                        <div class="mt-4 pt-3 border-top border-dark">
+                            <span class="badge-tag me-2">SQL</span>
+                            <span class="badge-tag me-2">MongoDB</span>
+                            <span class="badge-tag me-2">API Integration</span>
+                            <span class="badge-tag me-2">Cloud Deployment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="section-padding mt-5">
+        <div class="container">
+            <div class="text-center mb-5 pb-5">
+                <h2 class="display-4 fw-bold">Timeline of Growth</h2>
+                <p class="text-muted text-uppercase tracking-widest small">My professional evolution in code</p>
+            </div>
+
+            <div class="timeline-row" *ngFor="let exp of experiences" (mouseenter)="onMouseEnter($event)"
+                (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)" [style.--accent-color]="exp.color"
+                [style.--glow-rgb]="exp.glowRgb">
+                <div class="timeline-glow"></div>
+                <div class="timeline-date" *ngIf="!exp.type">{{ exp.date }}</div>
+                <div class="timeline-content">
+                    <!-- Header with Badge and Date (Optional) -->
+                    <div class="timeline-header" *ngIf="exp.type">
+                        <span class="timeline-type-badge">{{ exp.type }}</span>
+                        <div class="timeline-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <span>{{ exp.date }}</span>
+                        </div>
+                    </div>
+
+                    <h4 class="fw-bold mb-1">{{ exp.role }}</h4>
+                    <p class="small fw-bold mb-2" [style.color]="exp.color">{{ exp.company }}</p>
+                    <p class="text-muted mb-0">{{ exp.description }}</p>
+
+                    <!-- Main Tags -->
+                    <div class="timeline-tags" *ngIf="exp.tags">
+                        <span class="timeline-tag-pill" *ngFor="let tag of exp.tags">{{ tag }}</span>
+                    </div>
+
+                    <!-- Subjects Covered Section -->
+                    <div class="subjects-section" *ngIf="exp.subjects">
+                        <div class="subjects-title">SUBJECTS COVERED</div>
+
+                        <div class="subject-item" *ngFor="let subject of exp.subjects"
+                            [style.--accent-color]="subject.color">
+                            <div class="subject-dot"></div>
+                            <div class="subject-line"></div>
+                            <div class="subject-card" (click)="toggleSubject(subject)"
+                                [class.has-desc]="subject.description">
+                                <div class="subject-header">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="subject-year-badge">{{ subject.years }}</span>
+                                        <h5 class="mb-0 fs-6 fw-bold">{{ subject.title }}</h5>
+                                    </div>
+                                    <div *ngIf="subject.description">
+                                        <i class="fa-solid fa-chevron-down text-muted small"
+                                            *ngIf="!subject.expanded"></i>
+                                        <i class="fa-solid fa-chevron-up text-muted small" *ngIf="subject.expanded"></i>
+                                    </div>
+                                </div>
+                                <div class="subject-content" [class.show]="subject.expanded"
+                                    *ngIf="subject.description">
+                                    <p class="subject-description mb-3">{{ subject.description }}</p>
+                                    <div class="subject-tags" *ngIf="subject.tags">
+                                        <span class="subject-tag" *ngFor="let stag of subject.tags">{{ stag }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Works Grid -->
+    <section id="projects" class="section-padding bg-darker">
+        <div class="container">
+            <div class="mb-5 pb-4">
+                <p class="text-uppercase tracking-widest small accent-blue fw-bold mb-3">Selected Work</p>
+                <h2 class="display-3 fw-bold">Projects that push <br><span class="text-muted">boundaries.</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <div *ngFor="let project of projects" class="project-card-v2" [class.large]="project.size === 'large'"
+                    [class.small]="project.size === 'small'" [style.--accent-color]="project.color"
+                    [style.--glow-rgb]="project.glowRgb" (mouseenter)="onMouseEnter($event)"
+                    (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave($event)">
+
+                    <div class="project-card-v2-glow"></div>
+
+                    <div class="card-window-header">
+                        <div class="window-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <a [href]="project.href" target="_blank" class="card-url text-decoration-none" rel="noopener noreferrer">{{ project.url }}</a>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="content-top">
+                            <div class="project-meta">
+                                <span class="meta-category">{{ project.category }}</span>
+                                <span class="meta-dot">•</span>
+                                <span class="meta-year">{{ project.year }}</span>
+                            </div>
+                            <a [href]="project.href" target="_blank" class="arrow-link" aria-label="Open Project" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <h3 class="project-title-v2">{{ project.title }}</h3>
+
+                        <p class="project-desc-v2" *ngIf="project.description" [innerHTML]="project.description">
+                        </p>
+
+                        <div class="project-tags-v2">
+                            <span *ngFor="let tag of project.tags" class="project-tag-v2">{{ tag }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 pt-4">
+                <a href="#" class="btn-secondary-custom px-5 py-3 text-white border-0 fw-bold fs-6"
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 8px;">
+                    VIEW ALL PROJECTS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding text-center mt-5">
+        <div class="container py-5">
+            <div class="status-badge mb-4">PROTOCOL: ESTABLISH LINK</div>
+            <h2 class="display-3 fw-bold mb-5">Let's build the <br><span class="accent-blue italic">next
+                    generation</span> of web.</h2>
+            <div class="d-flex flex-column flex-md-row gap-4 justify-content-center pt-4">
+                <a href="https://t.me/Phirunn_Vat"
+                    class="btn-premium d-flex align-items-center justify-content-center gap-2 px-5">
+                    <i class="fa-solid fa-paper-plane"></i> Telegram MESSAGE
+                </a>
+                <a href="https://github.com/Phirunn891?tab=repositories"
+                    class="btn-secondary-custom d-flex align-items-center justify-content-center gap-2 border-0 px-5 text-white"
+                    style="background: rgba(255,255,255,0.05);">
+                    <i class="fa-solid fa-terminal"></i> VIEW REPOSITORY
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-dark mt-5 text-muted small">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+            <div class="fw-bold space-font fs-5 text-white">VATPHIRUN<span class="accent-blue">.</span>PORTFOLIO</div>
+            <div class="d-flex gap-5">
+                <a href="https://github.com/Phirunn891" class="text-reset text-decoration-none">GITHUB</a>
+                <a href="https://www.linkedin.com/in/vat-phirunn-0b3a85367/" class="text-reset text-decoration-none">LINKEDIN</a>
+                <a href="https://t.me/Phirunn_Vat" class="text-reset text-decoration-none">TELEGRAM</a>
+            </div>
+            <div>© 2024 PORTFOLIO CORE v3.14. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+</div>

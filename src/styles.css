@@ -1,0 +1,62 @@
+/* Global Styles */
+:root {
+    /* Dark Mode Defaults */
+    --bg-black: #050505;
+    --bg-section: #0a0f12;
+    --primary-blue: #38dbff;
+    --text-main: #e0e0e0;
+    --text-muted: #8a8a8a;
+    --card-bg: #11181c;
+    --nav-bg: rgba(5, 5, 5, 0.8);
+    --border-color: rgba(255, 255, 255, 0.05);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --btn-outline: white;
+    --footer-bg: #030303;
+    --tag-bg: #1a2329;
+    --card-hover-bg: #161e24;
+}
+
+:root.light-mode {
+    /* Light Mode Variables */
+    --bg-black: #f8f9fa;
+    --bg-section: #ffffff;
+    --primary-blue: #007bff;
+    --text-main: #1a1a1a;
+    --text-muted: #6c757d;
+    --card-bg: #ffffff;
+    --nav-bg: rgba(248, 249, 250, 0.8);
+    --border-color: rgba(0, 0, 0, 0.05);
+    --glass-bg: rgba(0, 0, 0, 0.02);
+    --btn-outline: #1a1a1a;
+    --footer-bg: #ffffff;
+    --tag-bg: #e9ecef;
+    --card-hover-bg: #f1f3f5;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-black);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure Angular app root takes full height */
+app-root {
+    display: block;
+    min-height: 100vh;
+}
+
+.text-muted-custom {
+    color: var(--text-muted);
+}
+
+.bg-dark-section {
+    background-color: var(--bg-section);
+}
+
+.bg-black-section {
+    background-color: var(--bg-black);
+}
