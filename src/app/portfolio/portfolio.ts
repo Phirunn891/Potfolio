@@ -71,7 +71,7 @@ export class Portfolio implements OnInit, OnDestroy {
       title: 'E-Attendance',
       category: 'WEB APPLICATION',
       year: '2026',
-      description: 'The Attendance System is designed to modernize and simplify how schools manage student attendance.<br><br><b>Goals:</b><br>• Reduce human error<br>• Make attendance faster and easier<br>• Keep records organized<br>• Improve monitoring for teachers<br>• Save time for teachers<br>• Improve overall school discipline<br><br><b>Demo it with:</b><br>Username: Admin, <b>Password: 123456</b>',
+      description: 'The Attendance System is designed to modernize and simplify how schools manage student attendance.<br><br><b>Goals:</b><br>• Reduce human error<br>• Make attendance faster and easier<br>• Keep records organized<br>• Improve monitoring for teachers<br>• Save time for teachers<br>• Improve overall school discipline<br><br><b>Demo it with:</b><br>Username: Admin <br> <b>Password: 123456</b>',
       tags: ['Angular', 'NodeJs', 'SQL'],
       url: 'attendance-management.app',
       color: '#06b6d4',
@@ -84,14 +84,14 @@ export class Portfolio implements OnInit, OnDestroy {
       title: 'Car Wash Management',
       category: 'WEB APPLICATION',
       year: '2026',
-      description: '<b>Demo it with:</b><br>User: Admin, <b>Password: 1111</b>',
+      description: '<b>Demo it with:</b><br>User: Admin <br> <b>Password: 1111</b>',
       tags: ['Angular', 'NodeJs', 'SQL'],
       url: 'car-garage-management.app',
       color: '#10b981',
       glowRgb: '16, 185, 129',
       size: 'small',
       link: '#',
-      href: 'https://car-wash-phi.vercel.app/'
+      href: 'https://sshinz-car-wash.vercel.app/login'
     },
     {
       title: 'Men Clothing Ecommerce',
