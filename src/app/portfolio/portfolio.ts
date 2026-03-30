@@ -1,5 +1,6 @@
 import { Component, Inject, OnInit, PLATFORM_ID, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
+import { describe } from 'node:test';
 
 @Component({
   selector: 'app-portfolio',
@@ -122,6 +123,7 @@ export class Portfolio implements OnInit, OnDestroy {
       title: 'Sshinz Game',
       category: 'WEB APPLICATION',
       year: '2025',
+      description: 'A Static Game Ecomerce Website Showing Clean Ui And Good Performance',
       tags: ['Angular', 'Bootstrap'],
       url: 'ecommerce-clothing.app',
       color: '#8b5cf6',
